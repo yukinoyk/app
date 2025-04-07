@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_image"> <!-- 设置图片背景 -->
+
+    <!-- 输入框：用户输入视频链接 -->
+    <EditText
+        android:id="@+id/videoUrlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入视频链接"
+        android:padding="10dp"
+        android:background="@android:color/transparent" />
+
+    <!-- 解析并跳转按钮 -->
+    <Button
+        android:id="@+id/parseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_rounded_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="解析并播放"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="right"
+        android:textSize="18sp" />
+</LinearLayout>

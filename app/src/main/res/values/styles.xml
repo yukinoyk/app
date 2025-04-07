@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- 基于 AppCompat 的主题 -->
+    <style name="Theme.Jiangyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 可在此处定制颜色、字体等 -->
+    </style>
+
+</resources>

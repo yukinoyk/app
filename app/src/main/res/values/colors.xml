@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<color name="button_normal">#CCCCFF</color> <!-- 正常状态的背景颜色 -->
+<color name="button_pressed">#FFCCFF</color> <!-- 按下时的背景颜色 -->
+</resources>
